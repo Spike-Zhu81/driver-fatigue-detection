@@ -44,7 +44,7 @@ For the deep learning model, I used MobileNetV2 with transfer learning. I evalua
 
 ## Result
 
-The final model achieved about 90% accuracy on the test data.
+The final model achieved about 82% accuracy on the test data.
 
 Through the evaluation, I learned that the performance of an AI model depends not only on the model architecture, but also on the quality of the dataset, preprocessing method, augmentation strategy, and evaluation method.
 
@@ -62,12 +62,15 @@ One difficulty was that facial direction, lighting conditions, and individual di
 driver-fatigue-detection/
 ├── README.md
 ├── figures/
+│   ├── .gitkeep
+│   └── workflow.png
 ├── src/
+│   └── preprocess_demo.py
 ├── requirements.txt
 └── .gitignore
 ```
 
-At this stage, this repository mainly contains the project summary. Source code and figures may be added later after removing private or sensitive information.
+This repository contains the project summary, a workflow figure, a simple preprocessing demo, and the Python package list. The original facial images and videos are not included due to privacy reasons.
 
 ## Notes
 
