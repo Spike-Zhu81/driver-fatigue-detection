@@ -38,6 +38,8 @@ The basic workflow was:
 4. Train a deep learning model
 5. Evaluate the model using several metrics
 
+![Project workflow](figures/workflow.png)
+
 For the deep learning model, I used MobileNetV2 with transfer learning. I evaluated the model using accuracy, precision, recall, and F1-score.
 
 ## Result
